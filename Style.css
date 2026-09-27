@@ -8,13 +8,13 @@ body {
   background:
     radial-gradient(
       circle at 20% 10%,
-      rgba(50, 100, 255, 0.18),
-      transparent 35%
+      rgba(131, 55, 206, 0.521),
+      transparent 30%
     ),
     radial-gradient(
       circle at 80% 70%,
-      rgba(130, 50, 255, 0.15),
-      transparent 100%
+      rgba(57, 40, 85, 0.697),
+      transparent 35%
     ),
     #030b18;
   margin: 0;
@@ -28,9 +28,7 @@ body {
   height: clamp(120px, 32vw, 170px);
   object-fit: cover;
   border: 5px solid rgb(255, 238, 6);
-  box-shadow:
-    0 0 10px #bfff00,
-    0 0 55px rgb(209, 185, 25);
+  box-shadow: 0 0 55px rgb(255, 238, 1);
   object-position: center 5%;
 }
 a {
@@ -104,7 +102,7 @@ p {
   padding: 5px;
   border-radius: 20px;
   color: aliceblue;
-  width: clamp(250px, 53vw, 350px);
+  width: clamp(250px, 63vw, 350px);
   max-width: 400px;
   background: rgba(247, 244, 244, 0.08);
   backdrop-filter: blur(14px);
