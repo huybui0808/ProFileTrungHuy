@@ -1,10 +1,4 @@
 body {
-  background-image:
-    linear-gradient(rgba(12, 11, 11, 0.68)), url("image/TrungHuy.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top;
-  background-size: cover;
   background:
     radial-gradient(
       circle at 20% 10%,
@@ -17,8 +11,11 @@ body {
       transparent 35%
     ),
     #030b18;
-  margin: 0;
-  min-height: 100vh;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
 }
 
 .avt {
@@ -35,7 +32,7 @@ a {
   text-decoration: none;
 }
 .Tieu_de {
-  margin-top: clamp(60px, 16px, 90px);
+  margin-top: clamp(20px, 12vw, 100px);
   background: transparent;
   display: flex;
   flex-direction: column;
@@ -70,7 +67,7 @@ a {
   }
 }
 h1 {
-  margin: 10px;
+  margin-top: clamp(10px, 5vw, 20px);
   font-size: clamp(12px, 8vw, 45px);
   color: aqua;
   font-weight: 800;
@@ -84,11 +81,11 @@ p {
   animation: slideUp 4s infinite alternate;
 }
 .Noi_dung_chinh {
-  margin-top: 70px;
+  margin-top: clamp(10px, 13vw, 70px);
   display: flex;
   justify-content: center;
   flex-direction: column;
-  max-height: 700px;
+
   align-items: center;
   gap: 30px;
 }
