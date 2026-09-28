@@ -93,12 +93,12 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
-  border: 4px solid rgb(255, 255, 255, 0.58);
+  gap: clamp(15px,3.5vw,25px);
+  border: clamp(2px,1.5vw,4px) solid rgb(255, 255, 255, 0.58);
   padding: 5px;
   border-radius: 20px;
   color: aliceblue;
-  width: clamp(250px, 63vw, 350px);
+  width: clamp(280px, 65vw, 400px);
   max-width: 400px;
   background: rgba(247, 244, 244, 0.08);
   backdrop-filter: blur(14px);
@@ -107,9 +107,9 @@ p {
 .anh {
   background-color: rgb(127, 255, 212);
   animation: zoom 3s infinite alternate;
-  margin-left: 20px;
-  width: 50px;
-  height: 50px;
+  margin-left: clamp(20px,5.4vw,50px);
+  width: clamp(40px,10.6vw,50px);
+  height: clamp(40px,10.6vw,50px);
   border-radius: 10px;
   display: flex;
   align-items: center;
