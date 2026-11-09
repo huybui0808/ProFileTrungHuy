@@ -72,10 +72,16 @@ h1 {
   color: aqua;
   font-weight: 800;
 }
-p {
+.thong_tin {
   font-size: clamp(10px, 3.2vw, 16px);
   color: aqua;
   animation: rbg 3s linear infinite;
+  
+}
+p1 {
+  font-size: clamp(10px, 3.2vw, 16px);
+  align-items: center;
+  justify-content: center;
 }
 .Ten_toi {
   animation: slideUp 4s infinite alternate;
@@ -95,7 +101,7 @@ p {
   align-items: center;
   gap: clamp(15px, 3.5vw, 25px);
   border: clamp(2px, 1.5vw, 4px) solid rgb(255, 255, 255, 0.58);
-  padding: 5px;
+  padding: 13px;
   border-radius: 20px;
   color: aliceblue;
   width: clamp(280px, 65vw, 400px);
